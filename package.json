@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/REALmyenemy/Test-MEAN-JS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
   }
 }
