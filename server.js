@@ -32,5 +32,16 @@ app.get('/api/students', function(req, res) {
       res.json(students); // return all students in JSON format
    });
 });
+
+app.post('/api/students/send', function (req, res) {
+    var student = new Student(); // create a new instance of the student model
+    student.name = req.body.name; // set the student name (comes from the request)
+    student.save(function(err) {
+       if (err)
+          res.send(err);
+          res.json({ message: 'student created!' });
+    });
+ });
+
 // startup our app at http://localhost:3000
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
