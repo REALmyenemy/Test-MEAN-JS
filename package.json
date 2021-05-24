@@ -1,0 +1,29 @@
+{
+  "name": "mean_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/REALmyenemy/Test-MEAN-JS.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Mongo",
+    "Express",
+    "Angular",
+    "Nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/REALmyenemy/Test-MEAN-JS/issues"
+  },
+  "homepage": "https://github.com/REALmyenemy/Test-MEAN-JS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
